@@ -1,0 +1,16 @@
+.banner{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner img{
+    width: 100%;
+  }
+  
+  /* @media (width > 1439px){
+    .banner img{
+      width: 1440px;
+      height: 800px;
+    }
+  
+  } */
