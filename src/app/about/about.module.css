@@ -1,0 +1,14 @@
+
+
+.bold{
+   font-weight: bold;   
+   font-style: normal;
+   /* text-decoration: underline; */
+}
+
+.bold :hover{
+    font-weight: bolder;   
+    font-style: italic;
+    text-decoration:underline;
+    font-size: larger;
+ }
