@@ -3,9 +3,9 @@
     justify-content: center;
   }
   
-  .banner img{
+.banner img{
     width: 100%;
-  }
+ }
   
   /* @media (width > 1439px){
     .banner img{
