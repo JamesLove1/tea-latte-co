@@ -1,32 +1,28 @@
-// "use client";
-'use server'
+"use client";
+// 'use server'
 import Link from "next/link"
 import Image from "next/image"
 import styles from "./about.module.css"
 import RedirectButton from "./redirectButton"
 
-// import { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 
-export default async function Page() {
+export default  function Page() {
     
-    
-    
-    // const [data, setData] = useState<string>("no data");
-    // useEffect(()=>{
-        //     test()
-        // })
+        const [data, setData] = useState<string>("no data");
+        useEffect(()=>{
+
+            test()
         
-        // async function test(){
+        }, [])
+        
+        async function test(){
             
-        //     const response:Promise<Response> = await fetch("https://api.coinlore.net/api/tickers/")
-        //     .then(response => response.json())
-        //     .then(data => data)
-        //     return JSON.stringify(response)
-        //     // setData(JSON.stringify(response))
-        // };
-        
-        const data = await fetch("https://api.coinlore.net/api/tickers/");
-        const tickers = await data.json()
+            const response:Promise<Response> = await fetch("https://api.coinlore.net/api/tickers/")
+            .then(response => response.json())
+            .then(data => data)
+            setData(JSON.stringify(response))
+        };
         
         return (    
         
@@ -64,17 +60,10 @@ export default async function Page() {
                 hello world
             </h1>
 
-            
-            {/* <form >
-                <input type="text" name="title" />
-                <input type="text" name="content" />
-                <button type="submit">Create</button>
-                </form> */}
-
             <RedirectButton/>
 
             <div>
-                { JSON.stringify(tickers)}
+                {data}
             </div>
             
 
