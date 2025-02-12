@@ -1,5 +1,7 @@
 # Tea Latte & Co
 
+
+
 ## Getting Started
 
 First, run the development server:
@@ -13,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Screenshots
 
-!["Screenshot 1"](Screenshot%20from%202025-02-12%2016-06-02.png)
+!["Screenshot 1"](./Screenshot%20from%202025-02-12%2016-24-09.png)
 
 !["Screenshot 2"](Screenshot%20from%202025-02-12%2016-06-54.png)
 
