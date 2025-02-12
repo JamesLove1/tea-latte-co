@@ -31,8 +31,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -90,8 +88,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Dir
-        run: ls 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
