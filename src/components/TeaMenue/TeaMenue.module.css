@@ -1,0 +1,57 @@
+.titleParent{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.extraContent{
+    padding: 1em 0 0 0;
+    margin: 0;
+    display: block;
+}
+
+.TeaMenu div {
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.TeaMenu div img{
+    width: 300px;
+}
+
+.TeaMenu div div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.TeaMenu div div p{
+    text-align: center;
+}
+
+.TeaMenu h1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media (width < 768) {
+    
+    .TeaMenu div{
+        flex-direction: column-reverse;
+    }
+
+    .extraContent{
+        display: none;
+    }
+}
