@@ -12,7 +12,7 @@ export default function Header(){
               <Link href="/">
                 <div className={styles.logoText}>
                 
-                  <img src="/coffee-cup.png" alt="coffee-cup.png" />
+                  <img src="./coffee-cup.png" alt="coffee-cup.png" />
                   <h1>Tea Latte & Co</h1>
                 </div>
               </Link>

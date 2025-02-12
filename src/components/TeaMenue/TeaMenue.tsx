@@ -11,7 +11,7 @@ export default function TeaMenu(){
         
         <div className={style.TeaMenu}>
             <div>
-                <img src="/chai-latte.png" alt=""/>
+                <img src="./chai-latte.png" alt=""/>
                 <div>
                     <h1>Chai Latte:</h1>
                     <p>
@@ -26,7 +26,7 @@ export default function TeaMenu(){
             </div>          
             
             <div className={style.reverse}>
-                <img src="/matchaLatte.jpg"></img>
+                <img src="./matchaLatte.jpg"></img>
                 <div>
                     <h1>Matcha Latte:</h1>
                     <p>
@@ -40,7 +40,7 @@ export default function TeaMenu(){
             </div>
             
             <div>
-                <img src="/callomaialTea.jpg" alt="" />
+                <img src="./callomaialTea.jpg" alt="" />
                 <div>
                     <h1>Chamomile Tea Latte:</h1>
                     <p>
@@ -54,7 +54,7 @@ export default function TeaMenu(){
             </div>
 
             <div className={style.reverse}>
-                <img src="/dirtyChiaLatte.jpg" alt="" />
+                <img src="./dirtyChiaLatte.jpg" alt="" />
                 <div>
                     <h1>Dirty Chai Latte:</h1>
                     <p>
