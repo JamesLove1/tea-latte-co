@@ -17,6 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 !["Screenshot 1"](./Screenshot%20from%202025-02-12%2016-24-09.png)
 
-!["Screenshot 2"](Screenshot%20from%202025-02-12%2016-06-54.png)
+!["Screenshot 2"](./Screenshot%20from%202025-02-12%2016-32-17.png)
 
 !["Screenshot 3"](./Screenshot%20from%202025-02-12%2016-07-27.png)
+
