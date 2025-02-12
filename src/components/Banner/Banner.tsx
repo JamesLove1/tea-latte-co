@@ -6,7 +6,7 @@ export default function Banner(){
 
         <div className={styles.banner}> 
           <img 
-            src="/matchaTea.jpg" 
+            src="./matchaTea.jpg" 
             alt="tea cup cover photo"
             />
         </div>
