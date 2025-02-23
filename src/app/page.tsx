@@ -17,9 +17,9 @@ export default function Home() {
       <Header/>
       
       <Banner/>
-      <br />
+
       <Tea_Map/>
-      <br />
+
       <Footer/>
     </>
     

@@ -7,6 +7,15 @@
     width: 100%;
  }
   
+ @media (width > 960) {
+
+  .banner{
+      width: 960px;
+      margin: auto;
+  }
+
+ }
+
   /* @media (width > 1439px){
     .banner img{
       width: 1440px;

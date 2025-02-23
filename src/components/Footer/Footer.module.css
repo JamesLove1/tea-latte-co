@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 7px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.outerFooter {
+    position: absolute;
+    bottom: 0;
+}
