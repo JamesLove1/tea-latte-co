@@ -2,7 +2,7 @@
 
 import styles from "./Header.module.css"
 import Link from 'next/link'
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 
 export default function Header(){
