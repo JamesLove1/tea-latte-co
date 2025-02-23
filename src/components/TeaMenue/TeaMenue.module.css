@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     margin: 2em;
+
 }
 
 .reverse {
@@ -49,6 +50,14 @@
     
     .TeaMenu div{
         flex-direction: column-reverse;
+    }
+
+    .TeaMenu div{
+        margin: 5%;
+    }
+
+    .TeaMenu div:first-child{
+        margin-top: 1%;
     }
 
     .extraContent{

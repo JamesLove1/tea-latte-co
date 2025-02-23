@@ -13,6 +13,7 @@ export default function TeaMenu(){
             <div>
                 <img src="./chai-latte.png" alt=""/>
                 <div>
+
                     <h1>Chai Latte:</h1>
                     <p>
                         A warm and spicy blend of black tea infused with aromatic spices like cinnamon, cardamom, and ginger, combined with steamed milk for a comforting experience.
