@@ -1,6 +1,7 @@
-.navBar{
+.navBarLinks{
     display: flex;
     align-items: flex-end;
+    flex-direction: row;
 }
 
 .logoText{
@@ -9,4 +10,45 @@
     font-size: x-large;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.menueIcon{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+.menueAndLogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.showMenu {
+    display: flex !important;
+}
+
+@media (width < 600) {
+    .menueIcon{
+        display: block;
+    }
+
+    .navBarLinks{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navBar {
+        flex-direction: column;
+    }
 }
