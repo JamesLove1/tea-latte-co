@@ -46,7 +46,7 @@
     font-weight: bold;
 }
 
-@media (width < 768) {
+@media (max-width: 768px) {
     
     .TeaMenu div{
         flex-direction: column-reverse;
@@ -65,7 +65,7 @@
     }
 }
 
-@media (width > 960) {
+@media (min-width: 960px) {
 
     .TeaMenu{
         width: 960px;
